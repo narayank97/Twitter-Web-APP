@@ -1,0 +1,32 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="theme.css">
+        
+    </head>
+    <main >
+        <body onload="getPublicTweets()">
+            <div class="header"><h1> Tweet Retriever </h1> </div>
+            
+            <div class="wrap">
+                <div class = "input">
+                    
+                    <input type="text" id="twitterHandle" placeholder="Enter a twitter handle here...">
+                    <button class ="twitterHandleSubmit"onclick="getTweets();myFunction();">Click me</button>
+                </div>
+                <div class = "search">
+                        <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search for tweets..">
+                </div>
+            </div>
+            
+            <div id="nameOfHandle"></div>
+
+            <div id="newOutput">
+                    <h3 id="Tweets"></h3>
+            </div>
+            
+        </body>
+        <script src="/makeRequest.js" type="text/javascript"></script>
+    </main>
+    
+</html>
