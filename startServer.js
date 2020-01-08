@@ -18,10 +18,10 @@ var publicTweetsArray = [];
 
 
 // ENTER KEYS BEFORE USE
-const my_consumer_key ='AM85rlROBMyqM8M4aa23ORj4w';
-const my_consumer_secret = '5cefkJ34j79iTiiGXbr1ur8AeqehAC3PucgJ5xAYepC01FNDx0';
-const my_access_token_key = '1196549976223911936-CtwdjD6672bbeBHqJT8T4gFy1OaArG';
-const my_access_token_secret = 'nAuHOdGJOLlus3yA8UQWWZYMwguwkBcLCu4tGtMkURyB1';
+const my_consumer_key = process.env.my_consumer_key;
+const my_consumer_secret = process.env.my_consumer_secret;
+const my_access_token_key = process.env.my_access_token_key;
+const my_access_token_secret =process.env.my_access_token_secret;
 
 
 
